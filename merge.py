@@ -6,9 +6,10 @@ def merge(arr1,arr2):
              i-=1
              j+=1
           else: j+=1
+#sorting again because it was asked in question.
     arr1.sort()
     arr2.sort()  
-             
+            
 
 
 
