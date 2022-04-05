@@ -1,4 +1,6 @@
 def merge(arr1,arr2):
+    arr1.sort()
+    arr2.sort()
     i,j=len(arr1)-1,0
     while i>-1 and j<len(arr2):
           if arr1[i]>arr2[j]:
